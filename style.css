@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(204 202 171);
+  text-align: center;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label {
+  display: block;
+  padding: 4px;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-top: 20px;
+}
+input {
+  padding: 3px;
+  border-radius: 0.2rem;
+}
+.container {
+  text-align: center;
+  padding-top: 20px;
+  height: 380px;
+  width: 400px;
+  background-color: #455a64;
+  margin: auto;
+
+  margin-top: 70px;
+}
+#submit-btn {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  padding: 3px;
+  width: 70px;
+  border-radius: 1rem;
+}
+#submit-btn:hover {
+  background-color: #03a9f4;
+  padding-top: 2px;
+}
+#output-box {
+  padding: 2rem;
+  color: whitesmoke;
+}
