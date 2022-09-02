@@ -16,16 +16,16 @@ function submitHandler() {
 function calculateProfitAndLoss(initial, quantity, current) {
   if (initial > current) {
     var loss = (initial - current) * quantity;
-    var lossPercentage = (loss / initial) * 100;
-    showOutput(`Hey loss is ${loss} and the percent is ${lossPercentage}%`);
+    var lossPercentage = ((initial-current) / initial) * 100;
+    showOutput(`Hey loss is ${loss} and the percent is ${lossPercentage.toFixed(2)}% 😥😥😥`);
   } else if (current > initial) {
     var profit = (current - initial) * quantity;
-    var profitPercentage = (profit / initial) * 100;
+    var profitPercentage = ((current-initial) / initial) * 100;
     showOutput(
-      `Hey profit is ${profit} and the percent is ${profitPercentage}%`
+      `Hey profit is ${profit} and the percent is ${profitPercentage.toFixed(2)}%🥳🥳🥳`
     );
   } else {
-    showOutput("No pain no gain and no gain no pain");
+    showOutput("No pain no gain and no gain no pain😐😐😐");
   }
 }
 function showOutput(message) {
