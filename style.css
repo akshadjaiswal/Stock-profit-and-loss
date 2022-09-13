@@ -24,8 +24,9 @@ input {
   padding-top: 20px;
   height: 380px;
   width: 400px;
-  background-color: #455a64;
+  background-color: #778595;
   margin: auto;
+  border-radius: 55px;
 
   margin-top: 70px;
 }
